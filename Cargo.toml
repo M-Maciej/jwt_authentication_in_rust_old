@@ -1,0 +1,11 @@
+[package]
+name = "jwt_authentication_in_rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = {version = "1.40.0", features = ["full"]}
+axum = "0.7.6"
+jsonwebtoken = "9.3.0"
+serde = "1.0.210"
+chrono = "0.4.38"
